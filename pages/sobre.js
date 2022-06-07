@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import React, { useState } from 'react';
 import Link from 'next/link';
 
-function sobre() {
+function Sobre() {
     const [isActive, setActive] = useState(false);
     return (
 
@@ -54,4 +54,4 @@ function sobre() {
 
 }
 
-export default sobre;
+export default Sobre;
